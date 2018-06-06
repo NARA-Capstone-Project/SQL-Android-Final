@@ -1,4 +1,4 @@
-Attribute VB_Name = "Module2"
+Attribute VB_Name = "AutoCompleteComboBoxModule"
 Option Explicit
 
 '
@@ -88,5 +88,3 @@ End Function
 Private Sub VBComBoBoxDroppedDown(ByRef cbBox As ComboBox)
     Call SendMessage(cbBox.hwnd, CB_SHOWDROPDOWN, Abs(True), 0)
 End Sub
-
-

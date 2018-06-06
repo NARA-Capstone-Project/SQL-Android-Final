@@ -36,7 +36,7 @@ Form=Form20.frm
 Form=Form21.frm
 Form=Form22.frm
 Designer=DataReport3.Dsr
-Module=Module2; AutoCompleteComboBox.bas
+Module=AutoCompleteComboBoxModule; AutoCompletionComboBox.bas
 Startup="Form2"
 HelpFile=""
 ExeName32="AdministratorSystem.exe"
@@ -65,6 +65,7 @@ Unattended=0
 Retained=0
 ThreadPerObject=0
 MaxNumberOfThreads=1
+DebugStartupOption=0
 
 [MS Transaction Server]
 AutoRefresh=1
