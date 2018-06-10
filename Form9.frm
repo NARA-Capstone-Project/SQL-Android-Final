@@ -249,10 +249,6 @@ ElseIf Combo1.ListIndex = 2 Then
 End If
 End Sub
 
-Private Sub Combo1_KeyPress(KeyAscii As Integer)
-KeyAscii = 0
-Beep
-End Sub
 
 Private Sub Combo2_Change()
 If Combo2.Text = "" Then
@@ -325,10 +321,7 @@ End Sub
 
 
 
-Private Sub Combo2_KeyPress(KeyAscii As Integer)
-KeyAscii = 0
-Beep
-End Sub
+
 
 Private Sub Command1_Click()
 form_type = "create"
